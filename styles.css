@@ -144,12 +144,65 @@ img {
 
 .quote {
     font-weight: 600;
-    font-size: 32px;
+    font-size: 48px;
 }
 
 .quote2 {
     font-weight: 500;
     font-size: 24px;
     padding-top: 48px;
+}
+
+.sectionThree {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 120px;
+}
+
+.modal {
+    background: #3882f6;
+    width: 480px;
+    border-radius: 10px;
+    box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+    display: flex;
+    gap: 64px;
+    padding: 16px;
+    height: 120px;
+    width: 1000px;
+}
+
+.mText1 {
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+    padding-left: 128px;
+    align-self: center;
+}
+
+.mText2 {
+    color: white;
+    font-size: 15px;
+    font-weight: 300;
+    padding-left: 128px;
+    align-self: flex-start;
+}
+
+.mTextGrp {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    justify-content: center;
+    padding-right: 340px;
+}
+
+.signup2 {
+    background-color: #f9faf8;
+    color: #3882f6;
+    font-weight: bold;
+    flex-shrink: 0;
+    height: 35px;
+    width: 100px;
+    align-self: center;
 }
 
