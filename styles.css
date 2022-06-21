@@ -102,6 +102,8 @@ img {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    height: 450px;
+    margin-bottom: 120px;
 }
 
 .cards {
@@ -127,5 +129,27 @@ img {
     font-size: 48px;
     font-weight: 600;
     padding: 128px;
+    margin-bottom: 120px;
+}
+
+.sectionTwo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 450px;
+    background-color: #e5e7eb;
+    padding: 100px;
+}
+
+.quote {
+    font-weight: 600;
+    font-size: 32px;
+}
+
+.quote2 {
+    font-weight: 500;
+    font-size: 24px;
+    padding-top: 48px;
 }
 
